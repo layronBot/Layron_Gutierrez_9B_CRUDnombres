@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1062637598200",
+    "project_id": "layrongutierrez-9b",
+    "storage_bucket": "layrongutierrez-9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062637598200:android:f1e047877fc117a8e8120d",
+        "android_client_info": {
+          "package_name": "com.layron.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5eMuW7QSlSbQxYkGCu05mOYS-nJYKn0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
