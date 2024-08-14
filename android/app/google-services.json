@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "1062637598200",
-    "project_id": "layrongutierrez-9b",
-    "storage_bucket": "layrongutierrez-9b.appspot.com"
+    "project_number": "265572156615",
+    "project_id": "firestore-6487d",
+    "storage_bucket": "firestore-6487d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1062637598200:android:f1e047877fc117a8e8120d",
+        "mobilesdk_app_id": "1:265572156615:android:dcfbef71322b8dacca2ae2",
         "android_client_info": {
-          "package_name": "com.layron.app"
+          "package_name": "com.luisA.app"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD5eMuW7QSlSbQxYkGCu05mOYS-nJYKn0I"
+          "current_key": "AIzaSyAgQysgypLwjtmH9mSAKJ0XDx2IQk07RD0"
         }
       ],
       "services": {

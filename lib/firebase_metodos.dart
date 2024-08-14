@@ -7,7 +7,7 @@ FirebaseFirestore db = FirebaseFirestore.instance;
 //Regresa una lista de datos
 Future<List> obtenerDatos() async {
   List gente = [];
-  CollectionReference collectionReferenceGente = db.collection('001');
+  CollectionReference collectionReferenceGente = db.collection('usuarios');
 
   QuerySnapshot queryGente = await collectionReferenceGente.get();
   for (var documento in queryGente.docs) {
@@ -25,7 +25,7 @@ Future<List> obtenerDatos() async {
 
 //Leer datos
 Future<void> leerNombre(String nombre) async {
-  await db.collection("001").add({"nombre": nombre});
+  await db.collection("usuarios").add({"nombre": nombre});
 }
 
 //Sintaxis de una base de datos NoSQL de Firebase
@@ -47,10 +47,10 @@ Future<void> leerNombre(String nombre) async {
 
 //Actualizar datos
 Future<void> actualizarNombre(String uid, String nuevonombre) async {
-  await db.collection("001").doc(uid).set({"nombre": nuevonombre});
+  await db.collection("usuarios").doc(uid).set({"nombre": nuevonombre});
 }
 
 //Eliminar datos
 Future<void> eliminarNombre(String uid) async{
-  await db.collection("001").doc(uid).delete();
+  await db.collection("usuarios").doc(uid).delete();
 }
